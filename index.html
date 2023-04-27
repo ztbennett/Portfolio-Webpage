@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"> <!--This is getting an error in the validator-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <!--creating a header for the website -->
+  <header>
+    <h1>Zachary Bennett</h1>
+      <p>Software Engineer: Student</p>
+  </header>
+  <!--creating the main portion of the website-->
+  <main><!-- opening main, for error called out below --> 
+  <!--link to picture of myself-->
+    
+      
+ <div class="container">   <!-- "unclosed element" error, closing <div> is commented below -->
+   <img class ="image" src="images/zach.jpg" width=100 alt="Picture of Zach"> 
+ <!--self contained article-->
+  <article>
+    <h2>Hello, I'm Zach</h2>
+      <p>I am excited to embark on a new career path as a software engineer after spending the last 12 years in sales. My decision to make this transition was motivated by my desire to spend more quality time with my family.</p>
+      <p>I am located in a serene area just outside of Pittsburgh, where I look forward to contributing to the vibrant tech community and pursuing my passion for software development.</p>
+  </article>
+  
+  <hr>
+  <!--self contained article-->
+  <article>
+    <h2>About me</h2>
+      <p>I have always had an interest in coding, and I have recently taken the leap to learn web development. I am passionate about this field and enjoy the process of constantly learning and improving my skills. Additionally, my background in sales has given me valuable experience in collaborating with others and working towards common goals.</p>
+    <p>When I'm not pursuing my passion for web development or working with others, I enjoy spending time with my family. My wife and daughter are the most important things to me, and I cherish every moment we spend together.</p> 
+    <p>In my free time I enjoy: </p>
+    <ul>
+      <li>Golfing</li>
+      <li>Lifting</li>
+       <li>Gaming</li>
+    </ul>
+  </article>
+  
+  <hr>
+    
+    <article>
+    <h2>Contact</h2>
+      <ol>
+        <li><a href="https://www.linkedin.com/in/zachary-bennett-40144086/">LinkedIn</a></li>
+        <li><a href="https://github.com/ztbennett">GitHub</a></li>
+      </ol>
+    </article>
+  </main> <!-- "End tag "main" seen, but there were open elements" error. I'm not sure what this means. The opening <main> is marked above--> 
+  
+  
+   <footer>  
+   <h3>Practice Page</h3>
+      </footer>
+</div> <!-- "stray end tag" error, this is for the <div> above with the note -->
+</body>
+<script src="script.js"></script> <!--This is getting an error "stray start tag" in the validator-->
+</html>
+
